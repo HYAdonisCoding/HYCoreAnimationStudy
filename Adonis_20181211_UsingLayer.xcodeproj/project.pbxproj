@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A2746C821C1FF02007912FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2746C721C1FF02007912FC /* Assets.xcassets */; };
+		7A2746CB21C20313007912FC /* HYHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746CA21C20313007912FC /* HYHomeTableViewController.m */; };
+		7A2746CE21C2079C007912FC /* HYCustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746CD21C2079C007912FC /* HYCustomDrawingViewController.m */; };
+		7A2746D121C22C66007912FC /* HYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746D021C22C66007912FC /* HYBaseViewController.m */; };
+		7A2746D421C23434007912FC /* HYAnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746D321C23434007912FC /* HYAnchorPointViewController.m */; };
+		7A2746DA21C23FE8007912FC /* HYCoordinateSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746D921C23FE8007912FC /* HYCoordinateSystemController.m */; };
+		7A2746DD21C241EE007912FC /* HYHitTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746DC21C241EE007912FC /* HYHitTestingViewController.m */; };
+		7A2746E021C2473D007912FC /* HYCornerRadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746DF21C2473D007912FC /* HYCornerRadiusViewController.m */; };
+		7A2746E321C24E7D007912FC /* HYShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746E221C24E7D007912FC /* HYShadowViewController.m */; };
+		7A2746E621C25695007912FC /* HYLayerMaskingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746E521C25695007912FC /* HYLayerMaskingViewController.m */; };
+		7A2746E921C2591B007912FC /* HYStretchFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746E821C2591B007912FC /* HYStretchFilterViewController.m */; };
+		7A2746EC21C260D6007912FC /* HYGroupOpaqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746EB21C260D6007912FC /* HYGroupOpaqueViewController.m */; };
+		7A2746F221C3402D007912FC /* HYGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746F121C3402D007912FC /* HYGCDViewController.m */; };
+		7A2746F521C34E07007912FC /* HYTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746F421C34E07007912FC /* HYTransformViewController.m */; };
+		7A2746F821C35424007912FC /* HYTransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746F721C35424007912FC /* HYTransform3DViewController.m */; };
+		7A2746FB21C359A5007912FC /* HYSublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746FA21C359A5007912FC /* HYSublayerTransformViewController.m */; };
+		7A2746FE21C37D5E007912FC /* HYFlatteningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746FD21C37D5E007912FC /* HYFlatteningViewController.m */; };
+		7A706DF021C38A88002DF97D /* HYCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DEF21C38A88002DF97D /* HYCubeViewController.m */; };
+		7A706DF321C399B0002DF97D /* HYCAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DF221C399B0002DF97D /* HYCAShapeLayerViewController.m */; };
+		7A706DF621C3A14B002DF97D /* HYCATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DF521C3A14B002DF97D /* HYCATextLayerViewController.m */; };
+		7A706DFA21C3A274002DF97D /* HYViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DF921C3A274002DF97D /* HYViewLabel.m */; };
+		7A706DFD21C3ABAA002DF97D /* HYTextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DFC21C3ABAA002DF97D /* HYTextLayerLabel.m */; };
+		7AA0866D21BF5FF6007A891F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0866C21BF5FF6007A891F /* AppDelegate.m */; };
+		7AA0867021BF5FF6007A891F /* HYLayerAndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0866F21BF5FF6007A891F /* HYLayerAndViewController.m */; };
+		7AA0867321BF5FF6007A891F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA0867121BF5FF6007A891F /* Main.storyboard */; };
+		7AA0867621BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0867421BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodeld */; };
+		7AA0867B21BF5FF9007A891F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA0867921BF5FF9007A891F /* LaunchScreen.storyboard */; };
+		7AA0867E21BF5FF9007A891F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0867D21BF5FF9007A891F /* main.m */; };
+		7AA0868821BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0868721BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.m */; };
+		7AA0869321BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0869221BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.m */; };
+		7AA086A221BF60AA007A891F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA086A121BF60AA007A891F /* QuartzCore.framework */; };
+		7AA086A521BF8407007A891F /* HYLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA086A421BF8407007A891F /* HYLayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA0868421BF5FF9007A891F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA0866021BF5FF6007A891F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA0866721BF5FF6007A891F;
+			remoteInfo = Adonis_20181211_UsingLayer;
+		};
+		7AA0868F21BF5FF9007A891F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA0866021BF5FF6007A891F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA0866721BF5FF6007A891F;
+			remoteInfo = Adonis_20181211_UsingLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A2746C721C1FF02007912FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A2746C921C20313007912FC /* HYHomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeTableViewController.h; sourceTree = "<group>"; };
+		7A2746CA21C20313007912FC /* HYHomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeTableViewController.m; sourceTree = "<group>"; };
+		7A2746CC21C2079C007912FC /* HYCustomDrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCustomDrawingViewController.h; sourceTree = "<group>"; };
+		7A2746CD21C2079C007912FC /* HYCustomDrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCustomDrawingViewController.m; sourceTree = "<group>"; };
+		7A2746CF21C22C66007912FC /* HYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseViewController.h; sourceTree = "<group>"; };
+		7A2746D021C22C66007912FC /* HYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseViewController.m; sourceTree = "<group>"; };
+		7A2746D221C23434007912FC /* HYAnchorPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYAnchorPointViewController.h; sourceTree = "<group>"; };
+		7A2746D321C23434007912FC /* HYAnchorPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYAnchorPointViewController.m; sourceTree = "<group>"; };
+		7A2746D821C23FE8007912FC /* HYCoordinateSystemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCoordinateSystemController.h; sourceTree = "<group>"; };
+		7A2746D921C23FE8007912FC /* HYCoordinateSystemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCoordinateSystemController.m; sourceTree = "<group>"; };
+		7A2746DB21C241EE007912FC /* HYHitTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHitTestingViewController.h; sourceTree = "<group>"; };
+		7A2746DC21C241EE007912FC /* HYHitTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHitTestingViewController.m; sourceTree = "<group>"; };
+		7A2746DE21C2473D007912FC /* HYCornerRadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCornerRadiusViewController.h; sourceTree = "<group>"; };
+		7A2746DF21C2473D007912FC /* HYCornerRadiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCornerRadiusViewController.m; sourceTree = "<group>"; };
+		7A2746E121C24E7D007912FC /* HYShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYShadowViewController.h; sourceTree = "<group>"; };
+		7A2746E221C24E7D007912FC /* HYShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYShadowViewController.m; sourceTree = "<group>"; };
+		7A2746E421C25695007912FC /* HYLayerMaskingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLayerMaskingViewController.h; sourceTree = "<group>"; };
+		7A2746E521C25695007912FC /* HYLayerMaskingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLayerMaskingViewController.m; sourceTree = "<group>"; };
+		7A2746E721C2591B007912FC /* HYStretchFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStretchFilterViewController.h; sourceTree = "<group>"; };
+		7A2746E821C2591B007912FC /* HYStretchFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStretchFilterViewController.m; sourceTree = "<group>"; };
+		7A2746EA21C260D6007912FC /* HYGroupOpaqueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGroupOpaqueViewController.h; sourceTree = "<group>"; };
+		7A2746EB21C260D6007912FC /* HYGroupOpaqueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYGroupOpaqueViewController.m; sourceTree = "<group>"; };
+		7A2746F021C3402D007912FC /* HYGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGCDViewController.h; sourceTree = "<group>"; };
+		7A2746F121C3402D007912FC /* HYGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYGCDViewController.m; sourceTree = "<group>"; };
+		7A2746F321C34E07007912FC /* HYTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTransformViewController.h; sourceTree = "<group>"; };
+		7A2746F421C34E07007912FC /* HYTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTransformViewController.m; sourceTree = "<group>"; };
+		7A2746F621C35424007912FC /* HYTransform3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTransform3DViewController.h; sourceTree = "<group>"; };
+		7A2746F721C35424007912FC /* HYTransform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTransform3DViewController.m; sourceTree = "<group>"; };
+		7A2746F921C359A5007912FC /* HYSublayerTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSublayerTransformViewController.h; sourceTree = "<group>"; };
+		7A2746FA21C359A5007912FC /* HYSublayerTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSublayerTransformViewController.m; sourceTree = "<group>"; };
+		7A2746FC21C37D5E007912FC /* HYFlatteningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYFlatteningViewController.h; sourceTree = "<group>"; };
+		7A2746FD21C37D5E007912FC /* HYFlatteningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFlatteningViewController.m; sourceTree = "<group>"; };
+		7A706DEE21C38A88002DF97D /* HYCubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCubeViewController.h; sourceTree = "<group>"; };
+		7A706DEF21C38A88002DF97D /* HYCubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCubeViewController.m; sourceTree = "<group>"; };
+		7A706DF121C399B0002DF97D /* HYCAShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCAShapeLayerViewController.h; sourceTree = "<group>"; };
+		7A706DF221C399B0002DF97D /* HYCAShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCAShapeLayerViewController.m; sourceTree = "<group>"; };
+		7A706DF421C3A14B002DF97D /* HYCATextLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCATextLayerViewController.h; sourceTree = "<group>"; };
+		7A706DF521C3A14B002DF97D /* HYCATextLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCATextLayerViewController.m; sourceTree = "<group>"; };
+		7A706DF821C3A274002DF97D /* HYViewLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYViewLabel.h; sourceTree = "<group>"; };
+		7A706DF921C3A274002DF97D /* HYViewLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYViewLabel.m; sourceTree = "<group>"; };
+		7A706DFB21C3ABAA002DF97D /* HYTextLayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTextLayerLabel.h; sourceTree = "<group>"; };
+		7A706DFC21C3ABAA002DF97D /* HYTextLayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTextLayerLabel.m; sourceTree = "<group>"; };
+		7AA0866821BF5FF6007A891F /* Adonis_20181211_UsingLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adonis_20181211_UsingLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA0866B21BF5FF6007A891F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AA0866C21BF5FF6007A891F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AA0866E21BF5FF6007A891F /* HYLayerAndViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLayerAndViewController.h; sourceTree = "<group>"; };
+		7AA0866F21BF5FF6007A891F /* HYLayerAndViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLayerAndViewController.m; sourceTree = "<group>"; };
+		7AA0867221BF5FF6007A891F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA0867521BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adonis_20181211_UsingLayer.xcdatamodel; sourceTree = "<group>"; };
+		7AA0867A21BF5FF9007A891F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA0867C21BF5FF9007A891F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA0867D21BF5FF9007A891F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AA0868321BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adonis_20181211_UsingLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA0868721BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adonis_20181211_UsingLayerTests.m; sourceTree = "<group>"; };
+		7AA0868921BF5FF9007A891F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA0868E21BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adonis_20181211_UsingLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA0869221BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adonis_20181211_UsingLayerUITests.m; sourceTree = "<group>"; };
+		7AA0869421BF5FF9007A891F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA086A121BF60AA007A891F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7AA086A321BF8407007A891F /* HYLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLayerViewController.h; sourceTree = "<group>"; };
+		7AA086A421BF8407007A891F /* HYLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLayerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA0866521BF5FF6007A891F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA086A221BF60AA007A891F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0868021BF5FF9007A891F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0868B21BF5FF9007A891F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A2746ED21C33142007912FC /* Chapter 01_04 */ = {
+			isa = PBXGroup;
+			children = (
+				7AA0866E21BF5FF6007A891F /* HYLayerAndViewController.h */,
+				7AA0866F21BF5FF6007A891F /* HYLayerAndViewController.m */,
+				7AA086A321BF8407007A891F /* HYLayerViewController.h */,
+				7AA086A421BF8407007A891F /* HYLayerViewController.m */,
+				7A2746CC21C2079C007912FC /* HYCustomDrawingViewController.h */,
+				7A2746CD21C2079C007912FC /* HYCustomDrawingViewController.m */,
+				7A2746D221C23434007912FC /* HYAnchorPointViewController.h */,
+				7A2746D321C23434007912FC /* HYAnchorPointViewController.m */,
+				7A2746D821C23FE8007912FC /* HYCoordinateSystemController.h */,
+				7A2746D921C23FE8007912FC /* HYCoordinateSystemController.m */,
+				7A2746DB21C241EE007912FC /* HYHitTestingViewController.h */,
+				7A2746DC21C241EE007912FC /* HYHitTestingViewController.m */,
+				7A2746DE21C2473D007912FC /* HYCornerRadiusViewController.h */,
+				7A2746DF21C2473D007912FC /* HYCornerRadiusViewController.m */,
+				7A2746E121C24E7D007912FC /* HYShadowViewController.h */,
+				7A2746E221C24E7D007912FC /* HYShadowViewController.m */,
+				7A2746E421C25695007912FC /* HYLayerMaskingViewController.h */,
+				7A2746E521C25695007912FC /* HYLayerMaskingViewController.m */,
+				7A2746E721C2591B007912FC /* HYStretchFilterViewController.h */,
+				7A2746E821C2591B007912FC /* HYStretchFilterViewController.m */,
+				7A2746EA21C260D6007912FC /* HYGroupOpaqueViewController.h */,
+				7A2746EB21C260D6007912FC /* HYGroupOpaqueViewController.m */,
+			);
+			path = "Chapter 01_04";
+			sourceTree = "<group>";
+		};
+		7A2746EE21C33FEA007912FC /* Chapter 05_08 */ = {
+			isa = PBXGroup;
+			children = (
+				7A2746F321C34E07007912FC /* HYTransformViewController.h */,
+				7A2746F421C34E07007912FC /* HYTransformViewController.m */,
+				7A2746F621C35424007912FC /* HYTransform3DViewController.h */,
+				7A2746F721C35424007912FC /* HYTransform3DViewController.m */,
+				7A2746F921C359A5007912FC /* HYSublayerTransformViewController.h */,
+				7A2746FA21C359A5007912FC /* HYSublayerTransformViewController.m */,
+				7A2746FC21C37D5E007912FC /* HYFlatteningViewController.h */,
+				7A2746FD21C37D5E007912FC /* HYFlatteningViewController.m */,
+				7A706DEE21C38A88002DF97D /* HYCubeViewController.h */,
+				7A706DEF21C38A88002DF97D /* HYCubeViewController.m */,
+				7A706DF121C399B0002DF97D /* HYCAShapeLayerViewController.h */,
+				7A706DF221C399B0002DF97D /* HYCAShapeLayerViewController.m */,
+				7A706DF421C3A14B002DF97D /* HYCATextLayerViewController.h */,
+				7A706DF521C3A14B002DF97D /* HYCATextLayerViewController.m */,
+				7A706DF721C3A240002DF97D /* View */,
+			);
+			path = "Chapter 05_08";
+			sourceTree = "<group>";
+		};
+		7A2746EF21C34011007912FC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7A2746F021C3402D007912FC /* HYGCDViewController.h */,
+				7A2746F121C3402D007912FC /* HYGCDViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7A706DF721C3A240002DF97D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A706DF821C3A274002DF97D /* HYViewLabel.h */,
+				7A706DF921C3A274002DF97D /* HYViewLabel.m */,
+				7A706DFB21C3ABAA002DF97D /* HYTextLayerLabel.h */,
+				7A706DFC21C3ABAA002DF97D /* HYTextLayerLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AA0865F21BF5FF6007A891F = {
+			isa = PBXGroup;
+			children = (
+				7AA0866A21BF5FF6007A891F /* Adonis_20181211_UsingLayer */,
+				7AA0868621BF5FF9007A891F /* Adonis_20181211_UsingLayerTests */,
+				7AA0869121BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests */,
+				7AA0866921BF5FF6007A891F /* Products */,
+				7AA086A021BF60AA007A891F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA0866921BF5FF6007A891F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA0866821BF5FF6007A891F /* Adonis_20181211_UsingLayer.app */,
+				7AA0868321BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.xctest */,
+				7AA0868E21BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA0866A21BF5FF6007A891F /* Adonis_20181211_UsingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7AA0866B21BF5FF6007A891F /* AppDelegate.h */,
+				7AA0866C21BF5FF6007A891F /* AppDelegate.m */,
+				7A2746C921C20313007912FC /* HYHomeTableViewController.h */,
+				7A2746CA21C20313007912FC /* HYHomeTableViewController.m */,
+				7A2746ED21C33142007912FC /* Chapter 01_04 */,
+				7A2746EE21C33FEA007912FC /* Chapter 05_08 */,
+				7A2746EF21C34011007912FC /* Other */,
+				7A2746CF21C22C66007912FC /* HYBaseViewController.h */,
+				7A2746D021C22C66007912FC /* HYBaseViewController.m */,
+				7AA0867121BF5FF6007A891F /* Main.storyboard */,
+				7AA0867921BF5FF9007A891F /* LaunchScreen.storyboard */,
+				7A2746C721C1FF02007912FC /* Assets.xcassets */,
+				7AA0867C21BF5FF9007A891F /* Info.plist */,
+				7AA0867D21BF5FF9007A891F /* main.m */,
+				7AA0867421BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodeld */,
+			);
+			path = Adonis_20181211_UsingLayer;
+			sourceTree = "<group>";
+		};
+		7AA0868621BF5FF9007A891F /* Adonis_20181211_UsingLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA0868721BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.m */,
+				7AA0868921BF5FF9007A891F /* Info.plist */,
+			);
+			path = Adonis_20181211_UsingLayerTests;
+			sourceTree = "<group>";
+		};
+		7AA0869121BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA0869221BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.m */,
+				7AA0869421BF5FF9007A891F /* Info.plist */,
+			);
+			path = Adonis_20181211_UsingLayerUITests;
+			sourceTree = "<group>";
+		};
+		7AA086A021BF60AA007A891F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AA086A121BF60AA007A891F /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA0866721BF5FF6007A891F /* Adonis_20181211_UsingLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA0869721BF5FF9007A891F /* Build configuration list for PBXNativeTarget "Adonis_20181211_UsingLayer" */;
+			buildPhases = (
+				7AA0866421BF5FF6007A891F /* Sources */,
+				7AA0866521BF5FF6007A891F /* Frameworks */,
+				7AA0866621BF5FF6007A891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adonis_20181211_UsingLayer;
+			productName = Adonis_20181211_UsingLayer;
+			productReference = 7AA0866821BF5FF6007A891F /* Adonis_20181211_UsingLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AA0868221BF5FF9007A891F /* Adonis_20181211_UsingLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA0869A21BF5FF9007A891F /* Build configuration list for PBXNativeTarget "Adonis_20181211_UsingLayerTests" */;
+			buildPhases = (
+				7AA0867F21BF5FF9007A891F /* Sources */,
+				7AA0868021BF5FF9007A891F /* Frameworks */,
+				7AA0868121BF5FF9007A891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA0868521BF5FF9007A891F /* PBXTargetDependency */,
+			);
+			name = Adonis_20181211_UsingLayerTests;
+			productName = Adonis_20181211_UsingLayerTests;
+			productReference = 7AA0868321BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AA0868D21BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA0869D21BF5FF9007A891F /* Build configuration list for PBXNativeTarget "Adonis_20181211_UsingLayerUITests" */;
+			buildPhases = (
+				7AA0868A21BF5FF9007A891F /* Sources */,
+				7AA0868B21BF5FF9007A891F /* Frameworks */,
+				7AA0868C21BF5FF9007A891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA0869021BF5FF9007A891F /* PBXTargetDependency */,
+			);
+			name = Adonis_20181211_UsingLayerUITests;
+			productName = Adonis_20181211_UsingLayerUITests;
+			productReference = 7AA0868E21BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA0866021BF5FF6007A891F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HY;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nikoyo (China）Electronics Systems Co., Ltd.";
+				TargetAttributes = {
+					7AA0866721BF5FF6007A891F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7AA0868221BF5FF9007A891F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7AA0866721BF5FF6007A891F;
+					};
+					7AA0868D21BF5FF9007A891F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7AA0866721BF5FF6007A891F;
+					};
+				};
+			};
+			buildConfigurationList = 7AA0866321BF5FF6007A891F /* Build configuration list for PBXProject "Adonis_20181211_UsingLayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA0865F21BF5FF6007A891F;
+			productRefGroup = 7AA0866921BF5FF6007A891F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA0866721BF5FF6007A891F /* Adonis_20181211_UsingLayer */,
+				7AA0868221BF5FF9007A891F /* Adonis_20181211_UsingLayerTests */,
+				7AA0868D21BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA0866621BF5FF6007A891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA0867B21BF5FF9007A891F /* LaunchScreen.storyboard in Resources */,
+				7A2746C821C1FF02007912FC /* Assets.xcassets in Resources */,
+				7AA0867321BF5FF6007A891F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0868121BF5FF9007A891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0868C21BF5FF9007A891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA0866421BF5FF6007A891F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A706DFA21C3A274002DF97D /* HYViewLabel.m in Sources */,
+				7A2746F521C34E07007912FC /* HYTransformViewController.m in Sources */,
+				7A2746EC21C260D6007912FC /* HYGroupOpaqueViewController.m in Sources */,
+				7A706DF021C38A88002DF97D /* HYCubeViewController.m in Sources */,
+				7AA086A521BF8407007A891F /* HYLayerViewController.m in Sources */,
+				7A2746F221C3402D007912FC /* HYGCDViewController.m in Sources */,
+				7A2746CE21C2079C007912FC /* HYCustomDrawingViewController.m in Sources */,
+				7A2746FB21C359A5007912FC /* HYSublayerTransformViewController.m in Sources */,
+				7A2746FE21C37D5E007912FC /* HYFlatteningViewController.m in Sources */,
+				7A2746E021C2473D007912FC /* HYCornerRadiusViewController.m in Sources */,
+				7AA0867021BF5FF6007A891F /* HYLayerAndViewController.m in Sources */,
+				7A2746DD21C241EE007912FC /* HYHitTestingViewController.m in Sources */,
+				7A2746DA21C23FE8007912FC /* HYCoordinateSystemController.m in Sources */,
+				7AA0867621BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodeld in Sources */,
+				7A2746D121C22C66007912FC /* HYBaseViewController.m in Sources */,
+				7AA0867E21BF5FF9007A891F /* main.m in Sources */,
+				7A706DFD21C3ABAA002DF97D /* HYTextLayerLabel.m in Sources */,
+				7AA0866D21BF5FF6007A891F /* AppDelegate.m in Sources */,
+				7A2746E621C25695007912FC /* HYLayerMaskingViewController.m in Sources */,
+				7A2746E321C24E7D007912FC /* HYShadowViewController.m in Sources */,
+				7A2746D421C23434007912FC /* HYAnchorPointViewController.m in Sources */,
+				7A706DF321C399B0002DF97D /* HYCAShapeLayerViewController.m in Sources */,
+				7A2746F821C35424007912FC /* HYTransform3DViewController.m in Sources */,
+				7A2746CB21C20313007912FC /* HYHomeTableViewController.m in Sources */,
+				7A706DF621C3A14B002DF97D /* HYCATextLayerViewController.m in Sources */,
+				7A2746E921C2591B007912FC /* HYStretchFilterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0867F21BF5FF9007A891F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA0868821BF5FF9007A891F /* Adonis_20181211_UsingLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0868A21BF5FF9007A891F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA0869321BF5FF9007A891F /* Adonis_20181211_UsingLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA0868521BF5FF9007A891F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA0866721BF5FF6007A891F /* Adonis_20181211_UsingLayer */;
+			targetProxy = 7AA0868421BF5FF9007A891F /* PBXContainerItemProxy */;
+		};
+		7AA0869021BF5FF9007A891F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA0866721BF5FF6007A891F /* Adonis_20181211_UsingLayer */;
+			targetProxy = 7AA0868F21BF5FF9007A891F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AA0867121BF5FF6007A891F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA0867221BF5FF6007A891F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA0867921BF5FF9007A891F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA0867A21BF5FF9007A891F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA0869521BF5FF9007A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AA0869621BF5FF9007A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA0869821BF5FF9007A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Adonis_20181211_UsingLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20181211-UsingLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA0869921BF5FF9007A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Adonis_20181211_UsingLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20181211-UsingLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AA0869B21BF5FF9007A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Adonis_20181211_UsingLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20181211-UsingLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adonis_20181211_UsingLayer.app/Adonis_20181211_UsingLayer";
+			};
+			name = Debug;
+		};
+		7AA0869C21BF5FF9007A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Adonis_20181211_UsingLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20181211-UsingLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adonis_20181211_UsingLayer.app/Adonis_20181211_UsingLayer";
+			};
+			name = Release;
+		};
+		7AA0869E21BF5FF9007A891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Adonis_20181211_UsingLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20181211-UsingLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adonis_20181211_UsingLayer;
+			};
+			name = Debug;
+		};
+		7AA0869F21BF5FF9007A891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Adonis_20181211_UsingLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20181211-UsingLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adonis_20181211_UsingLayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA0866321BF5FF6007A891F /* Build configuration list for PBXProject "Adonis_20181211_UsingLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA0869521BF5FF9007A891F /* Debug */,
+				7AA0869621BF5FF9007A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA0869721BF5FF9007A891F /* Build configuration list for PBXNativeTarget "Adonis_20181211_UsingLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA0869821BF5FF9007A891F /* Debug */,
+				7AA0869921BF5FF9007A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA0869A21BF5FF9007A891F /* Build configuration list for PBXNativeTarget "Adonis_20181211_UsingLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA0869B21BF5FF9007A891F /* Debug */,
+				7AA0869C21BF5FF9007A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA0869D21BF5FF9007A891F /* Build configuration list for PBXNativeTarget "Adonis_20181211_UsingLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA0869E21BF5FF9007A891F /* Debug */,
+				7AA0869F21BF5FF9007A891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AA0867421BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AA0867521BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodel */,
+			);
+			currentVersion = 7AA0867521BF5FF6007A891F /* Adonis_20181211_UsingLayer.xcdatamodel */;
+			path = Adonis_20181211_UsingLayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AA0866021BF5FF6007A891F /* Project object */;
+}
