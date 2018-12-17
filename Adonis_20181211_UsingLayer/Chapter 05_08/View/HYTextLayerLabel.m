@@ -93,12 +93,11 @@
     CGFontRelease(fontRef);
 }
 
-- (void)setBackgroundColor:(UIColor *)backgroundColor {
-    super.backgroundColor = backgroundColor;
-    
-    [self textLayer].backgroundColor = backgroundColor.CGColor;
-    self.backgroundColor = backgroundColor;
-}
+//- (void)setBackgroundColor:(UIColor *)backgroundColor {
+//    super.backgroundColor = backgroundColor;
+//    
+//    [self textLayer].backgroundColor = backgroundColor.CGColor;
+//}
 
 /*
 // Only override drawRect: if you perform custom drawing.

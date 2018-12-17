@@ -68,7 +68,7 @@
                 };;
     [string setAttributes:attribs range:NSMakeRange(5, 2)];
     myLabel.attributeString = string;
-    myLabel.backgroundColor = [UIColor magentaColor];
+//    myLabel.backgroundColor = [UIColor magentaColor];
     [self.view addSubview:myLabel];
     
     HYTextLayerLabel *label = [[HYTextLayerLabel alloc] initWithFrame:CGRectMake(10, 120, 150, 30)];
@@ -79,7 +79,7 @@
                               NSFontAttributeName:[UIFont systemFontOfSize:14],
                               NSForegroundColorAttributeName: [UIColor blueColor],
                               NSBaselineOffsetAttributeName:@1.0,
-                              };;
+                              };
     
     string = [[NSMutableAttributedString alloc] initWithString:label.text];
     [string setAttributes:attribs range:NSMakeRange(0, [string length])];
@@ -90,7 +90,7 @@
                 };;
     [string setAttributes:attribs range:NSMakeRange(5, 2)];
     label.attributedText = string;
-    label.backgroundColor = [UIColor magentaColor];
+//    label.backgroundColor = [UIColor magentaColor];
     [self.view addSubview:label];
 
 }

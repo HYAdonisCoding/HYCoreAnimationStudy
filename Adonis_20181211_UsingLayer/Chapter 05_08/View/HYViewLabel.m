@@ -69,7 +69,7 @@
     [self.layer addSublayer:self.textLayer];
     
     //set text attributes
-    self.textLayer.foregroundColor = [UIColor blackColor].CGColor;
+//    self.textLayer.foregroundColor = [UIColor blackColor].CGColor;
     self.textLayer.alignmentMode = kCAAlignmentJustified;
     self.textLayer.wrapped = YES;
     //以Retina的质量来显示文字，我们就得手动地设置CATextLayer的contentsScale属性
