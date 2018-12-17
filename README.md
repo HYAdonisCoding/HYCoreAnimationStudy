@@ -1,10 +1,5 @@
 # HYCoreAnimationStudy
 
-<<<<<<< HEAD
-=======
-===
-
->>>>>>> a9b54723cbf3a7ba7140326ec683abbd4f1787c1
 The progress of study CoreAnimation And Layer.
 
 ----
