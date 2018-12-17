@@ -534,7 +534,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJD-02-730" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-599" y="601"/>
+            <point key="canvasLocation" x="-666" y="600"/>
         </scene>
         <!--Home Table View Controller-->
         <scene sceneID="FC5-wJ-UNi">
@@ -584,7 +584,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQU-vv-6GM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="601"/>
+            <point key="canvasLocation" x="9" y="600"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EXY-Hf-0By">
@@ -1247,7 +1247,7 @@
         <image name="Snowman" width="200" height="280"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lFZ-Mz-fh6"/>
-        <segue reference="P8R-cJ-tet"/>
+        <segue reference="gXe-Ee-cln"/>
+        <segue reference="1f7-et-qiL"/>
     </inferredMetricsTieBreakers>
 </document>
