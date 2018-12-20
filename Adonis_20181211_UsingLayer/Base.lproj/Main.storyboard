@@ -909,11 +909,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LfO-pr-5WF">
-                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <rect key="frame" x="12.5" y="158.5" width="350" height="350"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="Vpo-u3-5yw"/>
-                                    <constraint firstAttribute="height" constant="300" id="blZ-mQ-4r1"/>
+                                    <constraint firstAttribute="width" constant="350" id="Vpo-u3-5yw"/>
+                                    <constraint firstAttribute="height" constant="350" id="blZ-mQ-4r1"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -931,6 +931,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="containerView" destination="LfO-pr-5WF" id="U5R-LZ-tRq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LaK-ai-nKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
