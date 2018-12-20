@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A107F3421CB86260062A4C4 /* HYCATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A107F3321CB86260062A4C4 /* HYCATransformLayerViewController.m */; };
 		7A2746C821C1FF02007912FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2746C721C1FF02007912FC /* Assets.xcassets */; };
 		7A2746CB21C20313007912FC /* HYHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746CA21C20313007912FC /* HYHomeTableViewController.m */; };
 		7A2746CE21C2079C007912FC /* HYCustomDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746CD21C2079C007912FC /* HYCustomDrawingViewController.m */; };
@@ -24,6 +25,7 @@
 		7A2746F821C35424007912FC /* HYTransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746F721C35424007912FC /* HYTransform3DViewController.m */; };
 		7A2746FB21C359A5007912FC /* HYSublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746FA21C359A5007912FC /* HYSublayerTransformViewController.m */; };
 		7A2746FE21C37D5E007912FC /* HYFlatteningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2746FD21C37D5E007912FC /* HYFlatteningViewController.m */; };
+		7A6B47E721CB8F0200BA5265 /* HYCAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6B47E621CB8F0200BA5265 /* HYCAGradientLayerViewController.m */; };
 		7A706DF021C38A88002DF97D /* HYCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DEF21C38A88002DF97D /* HYCubeViewController.m */; };
 		7A706DF321C399B0002DF97D /* HYCAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DF221C399B0002DF97D /* HYCAShapeLayerViewController.m */; };
 		7A706DF621C3A14B002DF97D /* HYCATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A706DF521C3A14B002DF97D /* HYCATextLayerViewController.m */; };
@@ -59,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A107F3221CB86260062A4C4 /* HYCATransformLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCATransformLayerViewController.h; sourceTree = "<group>"; };
+		7A107F3321CB86260062A4C4 /* HYCATransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCATransformLayerViewController.m; sourceTree = "<group>"; };
 		7A2746C721C1FF02007912FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2746C921C20313007912FC /* HYHomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeTableViewController.h; sourceTree = "<group>"; };
 		7A2746CA21C20313007912FC /* HYHomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeTableViewController.m; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		7A2746FA21C359A5007912FC /* HYSublayerTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSublayerTransformViewController.m; sourceTree = "<group>"; };
 		7A2746FC21C37D5E007912FC /* HYFlatteningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYFlatteningViewController.h; sourceTree = "<group>"; };
 		7A2746FD21C37D5E007912FC /* HYFlatteningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFlatteningViewController.m; sourceTree = "<group>"; };
+		7A6B47E521CB8F0200BA5265 /* HYCAGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCAGradientLayerViewController.h; sourceTree = "<group>"; };
+		7A6B47E621CB8F0200BA5265 /* HYCAGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCAGradientLayerViewController.m; sourceTree = "<group>"; };
 		7A706DEE21C38A88002DF97D /* HYCubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCubeViewController.h; sourceTree = "<group>"; };
 		7A706DEF21C38A88002DF97D /* HYCubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCubeViewController.m; sourceTree = "<group>"; };
 		7A706DF121C399B0002DF97D /* HYCAShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCAShapeLayerViewController.h; sourceTree = "<group>"; };
@@ -195,6 +201,10 @@
 				7A706DF221C399B0002DF97D /* HYCAShapeLayerViewController.m */,
 				7A706DF421C3A14B002DF97D /* HYCATextLayerViewController.h */,
 				7A706DF521C3A14B002DF97D /* HYCATextLayerViewController.m */,
+				7A107F3221CB86260062A4C4 /* HYCATransformLayerViewController.h */,
+				7A107F3321CB86260062A4C4 /* HYCATransformLayerViewController.m */,
+				7A6B47E521CB8F0200BA5265 /* HYCAGradientLayerViewController.h */,
+				7A6B47E621CB8F0200BA5265 /* HYCAGradientLayerViewController.m */,
 				7A706DF721C3A240002DF97D /* View */,
 			);
 			path = "Chapter 05_08";
@@ -423,7 +433,9 @@
 				7A706DFA21C3A274002DF97D /* HYViewLabel.m in Sources */,
 				7A2746F521C34E07007912FC /* HYTransformViewController.m in Sources */,
 				7A2746EC21C260D6007912FC /* HYGroupOpaqueViewController.m in Sources */,
+				7A107F3421CB86260062A4C4 /* HYCATransformLayerViewController.m in Sources */,
 				7A706DF021C38A88002DF97D /* HYCubeViewController.m in Sources */,
+				7A6B47E721CB8F0200BA5265 /* HYCAGradientLayerViewController.m in Sources */,
 				7AA086A521BF8407007A891F /* HYLayerViewController.m in Sources */,
 				7A2746F221C3402D007912FC /* HYGCDViewController.m in Sources */,
 				7A2746CE21C2079C007912FC /* HYCustomDrawingViewController.m in Sources */,

@@ -62,7 +62,7 @@
 
 - (NSArray *)dataArray {
     if (!_dataArray) {
-        _dataArray = @[@"LayerAndView", @"Contents", @"Custom Drawing", @"AnchorPoint", @"CoordinateSystem", @"Hit Testing", @"CornerRadius", @"LayerBorder", @"Shadow", @"LayerMasking", @"StretchFilter", @"GroupOpaque", @"Transform", @"Transform3D", @"Cube", @"Cube Light", @"CAShapeLayer", @"CATextLayer",
+        _dataArray = @[@"LayerAndView", @"Contents", @"Custom Drawing", @"AnchorPoint", @"CoordinateSystem", @"Hit Testing", @"CornerRadius", @"LayerBorder", @"Shadow", @"LayerMasking", @"StretchFilter", @"GroupOpaque", @"Transform", @"Transform3D", @"Cube", @"Cube Light", @"CAShapeLayer", @"CATextLayer", @"CATransformLayer", @"CAGradientLayer",
                        @"GCD"];
     }
     return _dataArray;

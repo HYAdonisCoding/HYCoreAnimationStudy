@@ -29,6 +29,7 @@
     self.text = self.text;
     self.textColor = self.textColor;
     self.font = self.font;
+//    self.backgroundColor = [UIColor whiteColor];
     if (self.attributedText.length > 0) {
         self.attributedText = self.attributedText;
     }
@@ -37,7 +38,7 @@
     //but that's complicated, so for now we'll just hard-code them
     [self textLayer].alignmentMode = kCAAlignmentJustified;
     [self textLayer].wrapped = YES;
-    
+    [self textLayer].backgroundColor = [UIColor whiteColor].CGColor;
     [self.layer display];
 }
 
@@ -46,7 +47,6 @@
     //called when creating label programmatically
     if (self = [super initWithFrame:frame])
     {
-        self.backgroundColor = [UIColor whiteColor];
         [self setUp];
     }
     return self;
@@ -93,11 +93,18 @@
     CGFontRelease(fontRef);
 }
 
+- (void)setLayerBackgroundColor:(UIColor *)layerBackgroundColor {
+
+    [self textLayer].backgroundColor = layerBackgroundColor.CGColor;
+//    super.backgroundColor = [UIColor colorWithCGColor:(layerBackgroundColor)];
+}
+
 //- (void)setBackgroundColor:(UIColor *)backgroundColor {
-//    super.backgroundColor = backgroundColor;
-//    
+//    super.backgroundColor = [UIColor whiteColor];
+//
 //    [self textLayer].backgroundColor = backgroundColor.CGColor;
 //}
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

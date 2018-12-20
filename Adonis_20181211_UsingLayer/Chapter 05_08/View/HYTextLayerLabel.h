@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HYTextLayerLabel : UILabel
 
+/** 背景色 */
+@property(nullable, nonatomic) UIColor *layerBackgroundColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

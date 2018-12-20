@@ -90,9 +90,18 @@
                 };;
     [string setAttributes:attribs range:NSMakeRange(5, 2)];
     label.attributedText = string;
-//    label.backgroundColor = [UIColor magentaColor];
+    label.layerBackgroundColor = [UIColor magentaColor];
     [self.view addSubview:label];
 
+    CALayer *layer = [CALayer layer];
+    layer.frame = CGRectMake(100, 200, 50, 50);
+    layer.backgroundColor = [UIColor magentaColor].CGColor;
+    [self.view.layer addSublayer:layer];
+    
+    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(200, 200, 120, 140)];
+    label1.numberOfLines = 0;
+    label1.text = @"手机信用卡\n米动健康联名信用卡金卡";
+    [self.view addSubview:label1];
 }
 
 /*
