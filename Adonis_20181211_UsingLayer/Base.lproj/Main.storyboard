@@ -582,6 +582,9 @@
                         <segue destination="U1U-yo-eHf" kind="show" identifier="CATextLayer" id="dte-3B-3Lt"/>
                         <segue destination="OaG-dW-2R1" kind="show" identifier="CATransformLayer" id="XCR-Nq-M94"/>
                         <segue destination="BBY-3R-F0i" kind="show" identifier="CAGradientLayer" id="EeH-Ux-DX9"/>
+                        <segue destination="8Z6-NF-AhM" kind="show" identifier="CAReplicatorLayer" id="g5r-f0-Pgx"/>
+                        <segue destination="Sf8-3C-4e6" kind="show" identifier="CAScrollLayer" id="bVp-g4-17c"/>
+                        <segue destination="Sf8-3C-4e6" kind="show" identifier="CATiledLayer" id="HSM-Gx-85r"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TQU-vv-6GM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -938,6 +941,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LaK-ai-nKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4569" y="695"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="cMv-E8-VRD">
+            <objects>
+                <viewController id="8Z6-NF-AhM" customClass="HYCAReplicatorLayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N1G-Qk-9OA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jp5-BF-zhz">
+                                <rect key="frame" x="12.5" y="158.5" width="350" height="350"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="Ccb-zB-cbf"/>
+                                    <constraint firstAttribute="width" constant="350" id="yhy-IL-9Km"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jp5-BF-zhz" firstAttribute="centerY" secondItem="N1G-Qk-9OA" secondAttribute="centerY" id="M1s-qS-RUY"/>
+                            <constraint firstItem="jp5-BF-zhz" firstAttribute="centerX" secondItem="N1G-Qk-9OA" secondAttribute="centerX" id="a8J-1z-V5V"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bQg-PX-qDT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="rbP-OL-3VY">
+                        <barButtonItem key="rightBarButtonItem" title="反射" id="5c8-N4-YEZ">
+                            <connections>
+                                <segue destination="8Z6-NF-AhM" kind="show" id="WTW-8K-TYu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="containerView" destination="jp5-BF-zhz" id="wla-fJ-TMA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXT-2u-HmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5467" y="716"/>
+        </scene>
+        <!--Scroll Layer View Controller-->
+        <scene sceneID="ZWU-vj-d8E">
+            <objects>
+                <viewController id="Sf8-3C-4e6" customClass="HYCAScrollLayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UEJ-LH-KAf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dMs-TP-fkR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lsp-8e-ZZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6329" y="654"/>
         </scene>
         <!--Shape Layer View Controller-->
         <scene sceneID="BXO-CT-8cH">
@@ -1320,6 +1377,7 @@
         <image name="Snowman" width="200" height="280"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="HSM-Gx-85r"/>
         <segue reference="gXe-Ee-cln"/>
         <segue reference="1f7-et-qiL"/>
     </inferredMetricsTieBreakers>

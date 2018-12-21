@@ -33,6 +33,10 @@
     self.navigationItem.title = @"Layer";
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForItem:self.dataArray.count -1 inSection:0] atScrollPosition:(UITableViewScrollPositionBottom) animated:YES];
+    });
 }
 
 #pragma mark - Table view data source
@@ -62,7 +66,7 @@
 
 - (NSArray *)dataArray {
     if (!_dataArray) {
-        _dataArray = @[@"LayerAndView", @"Contents", @"Custom Drawing", @"AnchorPoint", @"CoordinateSystem", @"Hit Testing", @"CornerRadius", @"LayerBorder", @"Shadow", @"LayerMasking", @"StretchFilter", @"GroupOpaque", @"Transform", @"Transform3D", @"Cube", @"Cube Light", @"CAShapeLayer", @"CATextLayer", @"CATransformLayer", @"CAGradientLayer",
+        _dataArray = @[@"LayerAndView", @"Contents", @"Custom Drawing", @"AnchorPoint", @"CoordinateSystem", @"Hit Testing", @"CornerRadius", @"LayerBorder", @"Shadow", @"LayerMasking", @"StretchFilter", @"GroupOpaque", @"Transform", @"Transform3D", @"Cube", @"Cube Light", @"CAShapeLayer", @"CATextLayer", @"CATransformLayer", @"CAGradientLayer", @"CAReplicatorLayer", @"CAScrollLayer", @"CATiledLayer",
                        @"GCD"];
     }
     return _dataArray;
